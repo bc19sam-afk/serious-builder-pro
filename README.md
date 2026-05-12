@@ -10,10 +10,24 @@ Live page:
 https://bc19sam-afk.github.io/serious-builder-pro/
 ```
 
+Discovery entry pages:
+
+- [Vite build error AI debugging evidence](https://bc19sam-afk.github.io/serious-builder-pro/vite-build-error-ai-debugging-evidence.html)
+- [Vite config error checklist](https://bc19sam-afk.github.io/serious-builder-pro/vite-config-error-checklist.html)
+- [GitHub issue evidence template](https://bc19sam-afk.github.io/serious-builder-pro/github-issue-evidence-template.html)
+
 Request access:
 
 ```text
 mailto:bc19sam@gmail.com?subject=Serious%20Builder%20Pro%20%2419%20access%20request
+```
+
+CTA source subjects:
+
+```text
+Serious Builder Pro $19 access request - vite build error page
+Serious Builder Pro $19 access request - vite config checklist page
+Serious Builder Pro $19 access request - github issue evidence page
 ```
 
 Who it is for:
@@ -51,7 +65,8 @@ Included concept:
 
 What happens after `Request access`:
 
-- Your email opens with a prepared subject and short buyer-fit prompt
+- Your email opens with a source-specific subject and short buyer-fit prompt
+- Do not include private logs, tokens, secrets, or private repo details in the email
 - No payment is collected yet
 - A real external request counts as purchase-intent evidence
 - Owner tests, deploys, and repo visits do not count
