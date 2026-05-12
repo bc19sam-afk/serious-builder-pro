@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Serious Builder Pro - JS/Vite AI Debugging Evidence Pack</title>
-    <meta name="description" content="A $19 self-serve JS/Vite evidence workflow for AI-coding developers who package build, config, test, and deploy failures for AI tools, teammates, or maintainers.">
+    <title>Serious Builder Pro - AI-ready JS/Vite failure packets</title>
+    <meta name="description" content="A $19 self-serve JS/Vite evidence workflow that turns messy build, config, test, and deploy failures into AI-ready packets for Codex, Cursor, Claude, teammates, and maintainers.">
     <link rel="canonical" href="https://bc19sam-afk.github.io/serious-builder-pro/">
     <meta name="robots" content="index,follow">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Serious Builder Pro">
-    <meta property="og:description" content="A $19 self-serve JS/Vite evidence workflow for AI-coding developers who package build, config, test, and deploy failures for AI tools, teammates, or maintainers.">
+    <meta property="og:description" content="A $19 self-serve JS/Vite evidence workflow that turns messy build, config, test, and deploy failures into AI-ready packets for Codex, Cursor, Claude, teammates, and maintainers.">
     <meta property="og:url" content="https://bc19sam-afk.github.io/serious-builder-pro/">
     <meta property="og:site_name" content="Serious Builder Pro">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Serious Builder Pro">
-    <meta name="twitter:description" content="A $19 self-serve JS/Vite evidence workflow for AI-coding developers who package build, config, test, and deploy failures.">
+    <meta name="twitter:description" content="A $19 self-serve JS/Vite evidence workflow that turns messy build, config, test, and deploy failures into AI-ready packets.">
     <style>
       :root {
         color-scheme: light;
@@ -166,6 +166,41 @@
         padding: 20px;
       }
 
+      .quick {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .quick div,
+      .step,
+      .example {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 16px;
+      }
+
+      .quick strong,
+      .step strong,
+      .example strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .examples {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
       .price {
         font-size: 34px;
         font-weight: 800;
@@ -190,7 +225,10 @@
         }
 
         .hero,
-        .grid {
+        .grid,
+        .quick,
+        .steps,
+        .examples {
           grid-template-columns: 1fr;
         }
 
@@ -209,13 +247,18 @@
       <div class="hero">
         <div>
           <p class="eyebrow">JS/Vite AI debugging evidence pack</p>
-          <h1>Serious Builder Pro</h1>
-          <p class="subhead">A self-serve workflow for AI-coding developers who need to turn messy Vite build, config, test, and deploy failures into redacted evidence packets for Codex, Cursor, Claude, teammates, or maintainers.</p>
+          <h1>Turn messy JS/Vite failures into AI-ready evidence packets.</h1>
+          <p class="subhead">Serious Builder Pro is a $19 self-serve pack for developers who use Codex, Cursor, Claude, ChatGPT, teammates, or maintainers to debug build, config, test, and deploy failures.</p>
           <div class="actions">
             <a class="button" href="mailto:bc19sam@gmail.com?subject=Serious%20Builder%20Pro%20%2419%20access%20request&body=I%20am%20interested%20in%20Serious%20Builder%20Pro.%0A%0AI%20use%3A%20Codex%20%2F%20Cursor%20%2F%20Claude%20%2F%20ChatGPT%20%2F%20other%0AMy%20JS%2FVite%20pain%3A%20%0AI%20would%20consider%20paying%20%2419%3A%20yes%20%2F%20no%20%2F%20depends%0A">Request access</a>
             <a class="button secondary" href="#included">See what is included</a>
           </div>
-          <p class="note">No payment is collected yet. This page is a public purchase-intent test.</p>
+          <p class="note">No payment is collected yet. This page tests whether real developers want access before the pack is sold.</p>
+          <div class="quick" aria-label="Five second summary">
+            <div><strong>What</strong>A reusable JS/Vite evidence workflow for AI debugging and handoffs.</div>
+            <div><strong>Pain</strong>Missing logs, versions, config, and reproduction context cause slow follow-up loops.</div>
+            <div><strong>Price</strong>$19 one-time self-serve pack. No private debugging.</div>
+          </div>
         </div>
         <aside class="preview" aria-label="Evidence packet preview">
           <h2>Evidence packet shape</h2>
@@ -228,6 +271,11 @@ redaction: env, tokens, private paths
 ask: what should the AI or teammate inspect?</pre>
         </aside>
       </div>
+
+      <section>
+        <h2>The problem it solves</h2>
+        <p>Most AI debugging prompts and GitHub issues start too vague. The command is missing, the Vite or Node version is unclear, the first error line is buried, config excerpts are incomplete, and secrets are not redacted. AI tools guess, teammates ask for more context, and maintainers ask for a better reproduction.</p>
+      </section>
 
       <section id="buyer">
         <h2>Who this is for</h2>
@@ -245,6 +293,20 @@ ask: what should the AI or teammate inspect?</pre>
               <li>Not for teams needing a SaaS issue intake system.</li>
               <li>Not for people who want private debugging done for them.</li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Why it is not just a free template</h2>
+        <div class="grid">
+          <div class="panel">
+            <strong>Free templates ask for fields.</strong>
+            <p>They usually say "steps to reproduce" and "expected behavior." That is useful, but still generic.</p>
+          </div>
+          <div class="panel">
+            <strong>Serious Builder Pro packages evidence.</strong>
+            <p>It is organized around JS/Vite build, config, Vitest/test, deploy logs, redaction, missing evidence, and AI-ready handoff.</p>
           </div>
         </div>
       </section>
@@ -272,6 +334,20 @@ ask: what should the AI or teammate inspect?</pre>
       </section>
 
       <section>
+        <h2>Before and after</h2>
+        <div class="examples">
+          <div class="example">
+            <strong>Before</strong>
+            <p>"Vite build fails after deploy. I pasted the last log line. Can you fix it?"</p>
+          </div>
+          <div class="example">
+            <strong>After</strong>
+            <p>"Here is the command, Node/Vite/package-manager versions, first and final error lines, relevant config excerpts, redaction note, what I tried, and the exact question for AI or teammate review."</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <h2>What is not included</h2>
         <ul>
           <li>No private debugging, private log review, code review, or tool setup.</li>
@@ -283,12 +359,38 @@ ask: what should the AI or teammate inspect?</pre>
       <section>
         <h2>Price</h2>
         <p class="price">$19</p>
-        <p>One-time self-serve digital pack. <span class="warning">Not taking payments yet.</span></p>
+        <p>One-time self-serve digital pack. The bet is simple: if it saves even one missing-context debugging loop, it is worth more than the price. <span class="warning">Not taking payments yet.</span></p>
       </section>
 
       <section>
-        <h2>Why not just free templates?</h2>
-        <p>Use free templates if you only need a blank bug report. This pack is for repeat builders who want the same evidence flow across AI tools, teammates, maintainers, and GitHub issues without inventing missing facts.</p>
+        <h2>What happens after Request access?</h2>
+        <div class="steps">
+          <div class="step"><strong>1. Your email opens</strong>The subject says Serious Builder Pro $19 access request.</div>
+          <div class="step"><strong>2. You add context</strong>Tell me what AI tool you use and what JS/Vite failure keeps wasting time.</div>
+          <div class="step"><strong>3. I count the signal</strong>If you are a real external developer, your request helps decide whether this should become a paid pack.</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>FAQ</h2>
+        <div class="grid">
+          <div class="panel">
+            <strong>Will this fix my bug?</strong>
+            <p>No. It helps you prepare better evidence before asking an AI tool, teammate, or maintainer.</p>
+          </div>
+          <div class="panel">
+            <strong>Is this a debugging service?</strong>
+            <p>No. There is no private debugging, private log review, diagnosis guarantee, or fix guarantee.</p>
+          </div>
+          <div class="panel">
+            <strong>Can I use free templates instead?</strong>
+            <p>Yes. If you only need a blank bug report, use a free template. This is for repeat JS/Vite builders who need a reusable AI-ready evidence workflow.</p>
+          </div>
+          <div class="panel">
+            <strong>Why request access before payment exists?</strong>
+            <p>This page is measuring whether real developers want the $19 pack before payment setup or product polishing.</p>
+          </div>
+        </div>
       </section>
 
       <footer>

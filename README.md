@@ -1,8 +1,8 @@
 # Serious Builder Pro
 
-Serious Builder Pro is a public purchase-intent test for a `$19` self-serve JS/Vite evidence workflow.
+Turn messy JS/Vite build, config, test, and deploy failures into AI-ready evidence packets before you ask Codex, Cursor, Claude, ChatGPT, a teammate, or a maintainer for help.
 
-It is for serious AI-coding developers who repeatedly package Vite build, config, test, and deploy failures for Codex, Cursor, Claude, ChatGPT, teammates, GitHub issues, or maintainers.
+Serious Builder Pro is a public purchase-intent test for a `$19` self-serve evidence workflow. It is not a debugging service and does not collect payment yet.
 
 Live page:
 
@@ -16,6 +16,30 @@ Request access:
 mailto:bc19sam@gmail.com?subject=Serious%20Builder%20Pro%20%2419%20access%20request
 ```
 
+Who it is for:
+
+- Serious AI-coding JS/Vite developers
+- Indie builders repeatedly hitting Vite build, config, Vitest, or deploy failures
+- Small-team developers who need cleaner handoffs before asking teammates or maintainers
+
+The pain:
+
+- AI tools guess when logs, versions, config, reproduction context, or exact commands are missing
+- Teammates ask follow-up questions instead of inspecting the failure
+- Maintainers ask for a clearer issue or minimal reproduction
+
+Why it is different from free templates:
+
+- It is JS/Vite-specific, not a blank bug report
+- It includes redaction and missing-evidence checks
+- It creates a reusable handoff for AI tools, teammates, and maintainers
+
+Why `$19`:
+
+- It is a one-time self-serve pack
+- It is meant to save repeated missing-context loops
+- It is cheaper than losing another build/debugging session to vague prompts
+
 Included concept:
 
 - Serious builder evidence checklist
@@ -24,6 +48,13 @@ Included concept:
 - Missing evidence detector
 - Teammate handoff template
 - GitHub issue form template
+
+What happens after `Request access`:
+
+- Your email opens with a prepared subject and short buyer-fit prompt
+- No payment is collected yet
+- A real external request counts as purchase-intent evidence
+- Owner tests, deploys, and repo visits do not count
 
 Not included:
 
