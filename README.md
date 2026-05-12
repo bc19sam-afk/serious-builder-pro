@@ -19,7 +19,7 @@ Discovery entry pages:
 Request access:
 
 ```text
-https://github.com/bc19sam-afk/serious-builder-pro/issues/new?title=Serious%20Builder%20Pro%20%2419%20access%20request
+mailto:bc19sam@gmail.com?subject=Serious%20Builder%20Pro%20%2419%20access%20request
 ```
 
 CTA source subjects:
@@ -65,8 +65,8 @@ Included concept:
 
 What happens after `Request access`:
 
-- A public GitHub issue opens with a source-specific title and short buyer-fit prompt
-- Do not include private logs, tokens, secrets, or private repo details in the public issue
+- Your email opens with a source-specific subject and short buyer-fit prompt
+- Do not include private logs, tokens, secrets, or private repo details in the email
 - No payment is collected yet
 - A real external request counts as purchase-intent evidence
 - Owner tests, deploys, and repo visits do not count
