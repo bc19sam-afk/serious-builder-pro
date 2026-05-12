@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bc19sam-afk.github.io/serious-builder-pro/sitemap.xml
