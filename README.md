@@ -16,11 +16,11 @@ Discovery entry pages:
 - [Vite config error checklist](https://bc19sam-afk.github.io/serious-builder-pro/vite-config-error-checklist.html)
 - [GitHub issue evidence template](https://bc19sam-afk.github.io/serious-builder-pro/github-issue-evidence-template.html)
 
-Request access:
+Request access from this repo overview:
 
-```text
-https://github.com/bc19sam-afk/serious-builder-pro/issues/new?title=Serious%20Builder%20Pro%20%2419%20access%20request
-```
+[Open a safe public GitHub issue](https://github.com/bc19sam-afk/serious-builder-pro/issues/new?title=Serious%20Builder%20Pro%20%2419%20access%20request%20-%20repo%20overview&body=Source%3A%20public%20repo%20overview%0A%0AI%20use%3A%20Codex%20%2F%20Cursor%20%2F%20Claude%20%2F%20ChatGPT%20%2F%20other%0AMy%20JS%2FVite%20pain%3A%20%0AI%20would%20consider%20paying%20%2419%3A%20yes%20%2F%20no%20%2F%20depends%0A%0APublic%20note%3A%20Do%20not%20include%20private%20logs%2C%20tokens%2C%20secrets%2C%20or%20private%20repo%20details.)
+
+The issue asks only for the AI tool you use, the JS/Vite pain that keeps wasting time, and whether `$19` is plausible. Do not include private logs, tokens, secrets, or private repo details.
 
 CTA source subjects:
 
